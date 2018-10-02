@@ -1,0 +1,30 @@
+.underline {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: .5rem 3.75rem;
+    background-color: black;
+  }
+  
+  header .logo-small {
+    display: none;
+  }
+  
+  header .logo-small,
+  header .logo-big {
+    flex-grow: 1;
+  }
+  
+  nav li {
+    display: inline;
+    padding-right: 2rem;
+    color: white;
+    font-family: "Trebuchet MS";
+  }
+  
+  nav li:last-child {
+    padding-right: 0;
+  }
