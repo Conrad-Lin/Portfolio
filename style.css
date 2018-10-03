@@ -8,6 +8,10 @@ header {
     padding: .5rem 3.75rem;
     background-color: black;
   }
+
+header img {
+  flex-grow: 1;
+}
   
   header .logo-small {
     display: none;
