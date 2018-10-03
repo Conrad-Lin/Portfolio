@@ -9,7 +9,7 @@ header {
     background-color: black;
   }
 
-head img {
+header img {
   flex-grow: 1;
   display: none;
   width: 10%;
