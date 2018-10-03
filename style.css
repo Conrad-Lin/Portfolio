@@ -5,14 +5,17 @@
 header {
     display: flex;
     align-items: center;
-    padding: .5rem 3.75rem;
-    background-color: black;
+    margin-right: 80px;
   }
 
 .logo {
   flex-grow: 1;
-  width: 20px;
-  height: 20px;
+  width: 5rem;
+  height: 5rem;
+  margin-left: none;
+  padding: none;
+  background-color: white;
+  padding-right: 1rem;
 }
 
   nav li {
@@ -20,6 +23,15 @@ header {
     padding-right: 2rem;
     color: white;
     font-family: "Trebuchet MS";
+  }
+
+  nav ul {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 65vw;
   }
   
   nav li:last-child {
