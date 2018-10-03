@@ -12,6 +12,8 @@ header {
 header img {
   flex-grow: 1;
   display: none;
+  width: 10%;
+  height: 10%;
 }
 
   nav li {
