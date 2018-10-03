@@ -11,6 +11,8 @@ header {
 
 .logo {
   flex-grow: 1;
+  width: 20px;
+  height: 20px;
 }
 
   nav li {
