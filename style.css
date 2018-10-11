@@ -1,33 +1,38 @@
+body {
+  background-color: #252a34;
+}
+
 .underline {
     text-decoration: underline;
+    color: #EAEAEA;
 }
 
 header {
     display: flex;
     align-items: center;
-    margin-right: 80px;
+    /*margin-right: 80px;*/
     text-align: center;
-  }
+    border-style: solid none solid none;
+    border-width: 10px;
+    border-color: #ff2e63;
+    color: #08d9d6;
+}
 
 .logo {
   flex-grow: 1;
   width: 5rem;
   height: 5rem;
-  margin-left: 20px;
-  padding-top: 10px;
-  background-color: white;
-  padding-right: 1rem;
+  margin-left: 15%;
 }
 
   nav li {
     display: inline;
     padding-right: 2rem;
-    color: #0D59CA;
-    font-family: "Trebuchet MS";
+    color: rgb(175, 175, 175);
+    font-family: "Courier New";
   }
 
   nav ul {
-    background-color: white;
     display: flex;
     align-items: right;
     padding-top: 20px;
@@ -41,27 +46,56 @@ header {
   }
 
   .liChange {
-    padding-left: 30vw;
+    padding-left: 20%;
   }
 
   div {
     text-align: center;
-    background: #3E81A2;
     margin-top: 1vw;
-    padding-bottom: 7px;
+    color: #EAEAEA
   }
 
   div h1 {
-    font-family: "Trebuchet MS";
-    padding-top: 7px;
-    color: white;
+    font-family: "Impact";
+    font-size: 108px;
+    color: #EAEAEA;
+    margin-bottom: 0px;
+    margin-top: 5px
+  }
+
+  .subheading {
+    font-family: "Courier New";
+    color: rgb(175, 175, 175);
+    margin-top: 0px;
+    font-size: 16px;
+  }
+
+  div h2 {
+    color: #EAEAEA;
+    font-family: "Impact";
+    font-size: 40px;
+    font-weight: 250;
   }
 
   div hr{
-    width: 600px;
+    width: 200px;
     margin: auto;
   }
 
-  p {
-    color: white;
+  .column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
   }
+}
+
