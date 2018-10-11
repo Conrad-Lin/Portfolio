@@ -108,4 +108,12 @@ header {
   .column {
       width: 100%;
   }
+
+  header {
+    width: 100%;
+  }
+
+  div {
+    width: 100%;
+  }
 }
