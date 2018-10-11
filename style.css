@@ -22,7 +22,7 @@ header {
   flex-grow: 1;
   width: 7vw;
   height: 7vw;
-  margin-left: 15%;
+  margin-left: .5vw;
 }
 
   nav li {
@@ -77,7 +77,7 @@ header {
     font-family: "Courier New";
     color: rgb(175, 175, 175);
     margin-top: 0px;
-    font-size: 100%;
+    font-size: 1.3vw;
   }
 
   div h2 {
@@ -111,4 +111,12 @@ header {
   .column {
       width: 100%;
   }
+}
+
+p {
+  font-size: 1.2vw;
+  color: #eaeaea;
+  font-family:"Verdana";
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
