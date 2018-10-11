@@ -111,12 +111,17 @@ header {
   .column {
       width: 100%;
   }
+
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 p {
   font-size: 1.2vw;
   color: #eaeaea;
   font-family:"Verdana";
-  padding-left: 1vw;
-  padding-right: 1vw;
+  padding-left: 20px;
+  padding-right: 20px;
 }
