@@ -18,18 +18,28 @@ header {
     width: 100%;
 }
 
-.logo {
+nav img {
   flex-grow: 1;
-  width: 7vw;
-  height: 7vw;
+  width: 4vw;
+  height: 4vw;
   margin-left: .5vw;
+  margin: none;
+  padding: 0;
+  padding-top: .5vw;
 }
 
+.logo {
+  float: left;
+  width: 7vw;
+  height: 7vw;
+  padding-top: 0;
+}
   nav li {
     display: inline;
     padding-right: 2vw;
     font-family: "Courier New";
     font-size: 1.3vw;
+    padding-top: 3vw;
   }
 
   nav a:visited, a:link {
@@ -40,14 +50,13 @@ header {
   nav ul {
     display: flex;
     align-items: right;
-    padding-top: 20px;
     padding-bottom: 15px;
     /*padding-right: 68vw;*/
     margin: auto;
   }
   
   nav li:last-child {
-    padding-right: 0;
+    padding-right: 5vw;
   }
 
   div {
@@ -109,7 +118,7 @@ header {
   }*/
 
   nav li {
-    font-size: 16px;
+    font-size: 24px;
   }
 }
 
