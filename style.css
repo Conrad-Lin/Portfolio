@@ -20,8 +20,8 @@ header {
 
 nav img {
   flex-grow: 1;
-  width: 2.5vw;
-  height: 2.5vw;
+  width: 3vw;
+  height: 3vw;
   margin-left: .5vw;
   margin: none;
   padding: 0;
@@ -38,7 +38,7 @@ nav img {
     padding-right: 2vw;
     font-family: "Courier New";
     font-size: 1.3vw;
-    padding-top: 3vw;
+    padding-top: 2vw;
   }
 
   nav a:visited, a:link {
@@ -54,6 +54,9 @@ nav img {
     margin: auto;
   }
   
+  nav li:nth-child(1), li:nth-child(2), li:nth-child(3)  {
+    padding-top: 3vw;
+  }
   nav li:last-child {
     padding-right: 3vw;
   }
