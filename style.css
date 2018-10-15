@@ -20,12 +20,11 @@ header {
 
 nav img {
   flex-grow: 1;
-  width: 4vw;
-  height: 4vw;
+  width: 2.5vw;
+  height: 2.5vw;
   margin-left: .5vw;
   margin: none;
   padding: 0;
-  padding-top: .5vw;
 }
 
 .logo {
@@ -56,7 +55,7 @@ nav img {
   }
   
   nav li:last-child {
-    padding-right: 5vw;
+    padding-right: 3vw;
   }
 
   div {
