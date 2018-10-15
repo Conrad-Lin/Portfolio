@@ -122,6 +122,11 @@ nav img {
   nav li {
     font-size: 12px;
   }
+
+  nav img {
+    width: 2;
+    height: 2;
+  }
 }
 
 p {
