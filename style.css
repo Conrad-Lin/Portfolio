@@ -28,15 +28,15 @@ nav img {
 }
 
 .divider {
-  margin: 30vw;
+  margin: 15vw;
 }
 
 img {
   flex-grow: 1;
   width: 10vw;
   height: 10vw;
-  margin-left: 5vw;
-  padding: 1;
+  margin-left: 2vw;
+  padding: 2;
 }
 
 .logo {
