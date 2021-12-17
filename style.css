@@ -27,10 +27,14 @@ nav img {
   padding: 0;
 }
 
+.divider {
+  margin: 4vw;
+}
+
 img {
   flex-grow: 1;
-  width: 8vw;
-  height: 8vw;
+  width: 10vw;
+  height: 10vw;
   margin-left: 1vw;
   margin: none;
   padding: 1;
