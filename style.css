@@ -28,7 +28,7 @@ nav img {
 }
 
 .divider {
-  margin: 3vw;
+  padding: 3vw;
   align-items: center;
 }
 
@@ -40,8 +40,17 @@ nav img {
   padding: 2vw;
 }
 
+.introdiv 
+{
+  background-color: rgb(175, 175, 175);
+  padding: 3vw;
+  margin: 1vw;
+  align-items: center;
+}
+
 .intro 
 {
+  /*color: #252a34;*/
   margin-bottom: 5vw;
   font-size: 1.2vw;
 }
