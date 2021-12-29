@@ -42,17 +42,28 @@ nav img {
 
 .introdiv 
 {
-  background-color: rgb(175, 175, 175);
-  padding: 3vw;
-  margin: 1vw;
+  /*background-color: rgb(26, 100, 100);*/
+  padding: 5vw;
+  margin: 3vw;
+  margin-bottom: 6vw;
   align-items: center;
 }
 
-.intro 
+h3.intro 
 {
-  /*color: #252a34;*/
-  margin-bottom: 5vw;
-  font-size: 1.2vw;
+  color: #eaeaea;
+  font-size: 1.5vw;
+  font-family: "Courier New";
+}
+
+p.intro
+{
+  color: rgb(175, 175, 175);
+  font-size: 1vw;
+  line-height: 250%;
+  font-family:"Verdana";
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .logo {
@@ -155,12 +166,18 @@ div h2 {
     width: 2;
     height: 2;
   }
+
+  p.intro 
+  {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
 }
 
 p {
   font-size: 1vw;
-  line-height: 200%;
   color: #eaeaea;
+  line-height: 200%;
   font-family:"Verdana";
   padding-left: 2vw;
   padding-right: 2vw;
