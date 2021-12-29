@@ -43,10 +43,13 @@ nav img {
 .introdiv 
 {
   /*background-color: rgb(26, 100, 100);*/
-  padding: 5vw;
+  padding: 8vw;
   margin: 3vw;
-  margin-bottom: 6vw;
+  margin-bottom: 10vw;
   align-items: center;
+  border-style: solid none solid none;
+  border-width: .35vw;
+  border-color: #08d9d6;
 }
 
 h3.intro 
@@ -122,8 +125,9 @@ div h1 {
 }
 
 div h2 {
-  font-family: 'DejaVu Sans Mono', monospace;
-  font-size: 3vw;
+  /*font-family: 'DejaVu Sans Mono', monospace;*/
+  font-family: "Courier New";
+  font-size: 2.5vw;
   font-weight: 250%;
 }
 
@@ -181,4 +185,19 @@ p {
   font-family:"Verdana";
   padding-left: 2vw;
   padding-right: 2vw;
+}
+
+footer 
+{
+  border-style: solid none none none;
+  border-width: .5vw;
+  border-color: #08d9d6;
+  padding: 10vw;
+  margin-top: 10vw;
+  background-color: #ff2e63;
+}
+
+footer p 
+{
+  color: #eaeaea;
 }
