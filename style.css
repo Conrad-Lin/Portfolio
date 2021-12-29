@@ -40,8 +40,7 @@ nav img {
   padding: 2vw;
 }
 
-.introdiv 
-{
+.introdiv {
   /*background-color: rgb(26, 100, 100);*/
   padding: 8vw;
   margin: 3vw;
@@ -52,15 +51,13 @@ nav img {
   border-color: #08d9d6;
 }
 
-h3.intro 
-{
+h3.intro {
   color: #eaeaea;
   font-size: 1.5vw;
   font-family: "Courier New";
 }
 
-p.intro
-{
+p.intro {
   color: rgb(175, 175, 175);
   font-size: 1vw;
   line-height: 250%;
@@ -163,7 +160,7 @@ div h2 {
   }*/
 
   nav li {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   nav img {
@@ -171,10 +168,22 @@ div h2 {
     height: 2;
   }
 
-  p.intro 
-  {
+  p.intro {
     padding-left: 5vw;
     padding-right: 5vw;
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .subheading {
+    font-size: 20px;
+  }
+
+  h3.intro {
+    font-size: 20px;
   }
 }
 
