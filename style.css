@@ -10,7 +10,6 @@ body {
 header {
     display: flex;
     align-items: center;
-    /*margin-right: 80px;*/
     text-align: center;
     border-style: solid none solid none;
     border-width: .9vw;
@@ -18,13 +17,37 @@ header {
     width: 100%;
 }
 
-nav img {
-  flex-grow: 1;
-  width: 3vw;
-  height: 3vw;
-  margin-left: .5vw;
-  margin: none;
-  padding: 0;
+.logo {
+  float: left;
+  width: 7vw;
+  height: 7vw;
+  padding-top: 0;
+}
+
+nav li {
+  display: inline;
+  padding-right: 2vw;
+  font-family: "Courier New";
+  font-size: 1.3vw;
+  padding-top: 2vw;
+}
+
+nav a:visited, a:link {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  padding-bottom: 15px;
+  margin: auto;
+}
+  
+nav li:nth-child(1), li:nth-child(2), li:nth-child(3)  {
+  padding-top: 3vw;
+}
+nav li:last-child {
+  padding-right: 3vw;
 }
 
 .divider {
@@ -70,40 +93,6 @@ p.intro {
   padding-right: 10vw;
 }
 
-.logo {
-  float: left;
-  width: 7vw;
-  height: 7vw;
-  padding-top: 0;
-}
-
-nav li {
-  display: inline;
-  padding-right: 2vw;
-  font-family: "Courier New";
-  font-size: 1.3vw;
-  padding-top: 2vw;
-}
-
-nav a:visited, a:link {
-  color: rgb(175, 175, 175);
-  text-decoration: none;
-}
-
-nav ul {
-  display: flex;
-  align-items: right;
-  padding-bottom: 15px;
-  /*padding-right: 68vw;*/
-  margin: auto;
-}
-  
-nav li:nth-child(1), li:nth-child(2), li:nth-child(3)  {
-  padding-top: 3vw;
-}
-nav li:last-child {
-  padding-right: 3vw;
-}
 
 div {
   text-align: center;
@@ -162,10 +151,15 @@ div h2 {
   clear: both;
 }
 
+.skills {
+  line-height: 200%;
+}
+
 .achievement {
   color: #08d9d6;
-  font-size: 1.25vw; 
+  font-size: 1.15vw; 
   font-family: "Verdana";
+  font-weight: 750;
 }
 
 div.project {
@@ -198,10 +192,10 @@ img.project {
 p {
   font-size: 1vw;
   color: #eaeaea;
-  line-height: 200%;
   font-family:"Verdana";
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-left: 4.5vw;
+  padding-right: 4.5vw;
+  font-weight: 500;
 }
 
 footer 
@@ -209,14 +203,30 @@ footer
   border-style: solid none none none;
   border-width: .5vw;
   border-color: #ff2e63;
-  padding: 10vw;
-  margin-top: 10vw;
+  padding: 5vw;
+  margin-top: 5vw;
   background-color: #252a34;
 }
 
-footer p 
-{
-  color: #eaeaea;
+footer img {
+  flex-grow: 1;
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-left: 2vw;
+  margin: auto;
+  padding: auto;
+}
+
+footer li {
+  display: inline-block;
+  padding-right: 4vw;
+  padding-top: 2.75vw;
+}
+
+footer ul {
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
  
 @media screen and (max-width: 600px) {
