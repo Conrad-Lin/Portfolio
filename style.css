@@ -96,7 +96,7 @@ p.intro {
 
 div {
   text-align: center;
-  margin-top: 1vw;
+  /*margin-top: 1vw;*/
   color: #EAEAEA
 }
 
@@ -153,6 +153,8 @@ div h2 {
 
 .skills {
   line-height: 200%;
+  padding-left: 4.5vw;
+  padding-right: 4.5vw;
 }
 
 .achievement {
@@ -167,17 +169,32 @@ div.project {
   float: left;
 }
 
-p.project {
-  font-size: 1vw;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+h2.project {
+  border-style: none none solid none;
+  border-width: .25vw;
+  border-color: #08d9d6;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  font-size: 2vw;
 }
 
 img.project {
   width: 66.66%;
   height: auto;
   float: left;
+}
+
+p.project {
+  line-height: 200%;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+a.project {
+  text-decoration: none;
+  font-family: "Courier New";
+  font-size: 1.15vw;
+  color: #ff2e63;
 }
 
 .projectgroup {
@@ -193,8 +210,6 @@ p {
   font-size: 1vw;
   color: #eaeaea;
   font-family:"Verdana";
-  padding-left: 4.5vw;
-  padding-right: 4.5vw;
   font-weight: 500;
 }
 
