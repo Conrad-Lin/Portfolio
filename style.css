@@ -258,11 +258,6 @@ footer ul {
     font-size: 15px;
   }
 
-  nav img {
-    width: 2;
-    height: 2;
-  }
-
   p.intro {
     padding-left: 2vw;
     padding-right: 2vw;
@@ -271,6 +266,10 @@ footer ul {
 
   p {
     font-size: 15px;
+  }
+
+  .column h3 {
+    font-size: 18px;
   }
 
   .subheading {
@@ -286,6 +285,45 @@ footer ul {
   }
 
   .column p {
+    font-size: 15px;
+  }
+
+  .column a {
+    font-size: 15px;
+  }
+
+  div.project {
+    width: 100%
+  }
+  
+  h2.project {
+    border-style: none none solid none;
+    border-width: .25vw;
+    border-color: #08d9d6;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: 2vw;
+  }
+  
+  img.project {
+    width: 100%
+  }
+
+  .divimg {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  footer img {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  h2.project {
+    font-size: 20px;
+  }
+
+  a.project {
     font-size: 15px;
   }
 }
