@@ -65,6 +65,7 @@ nav li:last-child {
 
 #fidelity {
   height: 12.25vw;
+  width: 10vw;
 }
 
 .introdiv {
@@ -249,13 +250,18 @@ footer ul {
       width: 100%;
   }
 
-  /*p {
-    padding-left: 10px;
-    padding-right: 10px;
-  }*/
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
 
   nav li {
     font-size: 15px;
+  }
+    
+  nav li:nth-child(1), li:nth-child(2), li:nth-child(3)  {
+    padding-top: 17px;
+    padding-right: 15px;
   }
 
   p.intro {
@@ -281,7 +287,7 @@ footer ul {
   }
 
   .column h2 {
-    font-size: 25px;
+    font-size: 32px;
   }
 
   .column p {
@@ -297,12 +303,7 @@ footer ul {
   }
   
   h2.project {
-    border-style: none none solid none;
-    border-width: .25vw;
-    border-color: #08d9d6;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    font-size: 2vw;
+    font-size: 28px;
   }
   
   img.project {
@@ -312,6 +313,11 @@ footer ul {
   .divimg {
     width: 20vw;
     height: 20vw;
+  }
+
+  #fidelity {
+    height: 25vw;
+    width: 20vw;
   }
 
   footer img {
@@ -325,5 +331,9 @@ footer ul {
 
   a.project {
     font-size: 15px;
+  }
+
+  div.column, div.project {
+    margin-bottom: 40px;
   }
 }
